@@ -3,7 +3,7 @@ import random
 
 st.set_page_config(page_title="Gëzuar 7-8 Marsin 🌸")
 
-st.title("🌷 Kartolinë Digjitale për 7–8 Marsin")
+st.title("🌷Kartolinë për 7–8 Marsin🌷")
 
 opsion = st.radio("Zgjidhni festën:", ["7 Mars - Dita e Mësuesit", 
                                        "8 Mars - Dita e Nënës"])
@@ -19,7 +19,7 @@ if st.button("Shfaq Urimin 💌"):
             "Faleminderit për përkushtimin dhe zemrën tuaj të madhe.",
             "Çdo mësim nga ju është një hap drejt suksesit tonë."
         ]
-        titulli = "🌟 GËZUAR 7 MARSIN! 🌟"
+        titulli = "🌟GËZUAR 7 MARSIN!🌟"
         if emri:
             if emri.lower().endswith("a"):
                 st.success(f"E dashur mësuese {emri}, {random.choice(urime)}")
@@ -31,13 +31,14 @@ if st.button("Shfaq Urimin 💌"):
             "Ju jeni zemra e familjes tuaj dhe familja jonë e dytë.",
             "Mirënjohje për gjithçka që bëni me kaq përkushtim."
         ]
-        titulli = "💖 GËZUAR 8 MARSIN! 💖"
+        titulli = "💖GËZUAR 8 MARSIN!💖"
         if emri:
-            st.success(f"E dashur {emri}, {random.choice(urime)}")
+            st.success(f"E dashur mesuese {emri}, {random.choice(urime)}")
 
     st.markdown(f"## {titulli}")
     st.balloons()
  
+
 
 
 
