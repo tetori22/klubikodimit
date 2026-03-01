@@ -21,7 +21,7 @@ if st.button("Shfaq Urimin 💌"):
             "Ju jeni drita që ndriçon rrugën tonë drejt dijes.",
             "Faleminderit për përkushtimin dhe zemrën tuaj të madhe.",
             "Çdo mësim nga ju është një hap drejt suksesit tonë.",
-            "Mësues si ju bëjnë botën më të bukur.",
+            "Mësues si ju e bëjnë botën më të bukur.",
             "Mirënjohje për çdo ditë që ndani dije dhe buzëqeshje.",
             "Ju frymëzoni çdo nxënës të rritet me besim dhe kurajo.",
             "Një falënderim i madh për gjithë punën tuaj."
@@ -45,6 +45,7 @@ if st.button("Shfaq Urimin 💌"):
 
     st.balloons()
  
+
 
 
 
