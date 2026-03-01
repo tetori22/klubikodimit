@@ -35,8 +35,11 @@ if st.button("Shfaq Urimin 💌"):
         ">
             <h2>🌟 GËZUAR FESTËN! 🌟</h2>
             <p>{urimi_personal}</p>
+            <p>Me dashuri nga Klubi i Kodimit</p>
+            <p>Shkolla "22 Tetori"</p>
         </div>
         """, unsafe_allow_html=True)
+
 
 
 
