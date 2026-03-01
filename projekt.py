@@ -26,7 +26,7 @@ if st.button("Shfaq Urimin 💌"):
         st.markdown(f"""
         <div style="
             text-align:center;
-            background: linear-gradient(135deg, #ffe6f2, #fff0f5);
+            background: linear-gradient(135deg, #d4edda, #e6f7e6);
             padding:20px;
             border-radius:20px;
             border:3px solid #ff4da6;
@@ -39,6 +39,7 @@ if st.button("Shfaq Urimin 💌"):
             <p>Shkolla "22 Tetori"</p>
         </div>
         """, unsafe_allow_html=True)
+
 
 
 
