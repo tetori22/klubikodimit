@@ -5,11 +5,11 @@ st.title("🌷 Kartolinë për 7–8 Marsin 🌷")
 
 # Fjalori me urime për secilin mësues
 urime_mesuesve = {
-    "Arta": "E dashur mësuese Arta, ju jeni frymëzim për çdo nxënës 🌸",
-    "Blerim": "I dashur mësues Blerim, puna juaj na frymëzon çdo ditë 🌹",
-    "Elira": "E dashur mësuese Elira, çdo ditë bëni ndryshim në klasë 🌼",
-    "Gentian": "I dashur mësues Gentian, faleminderit për përkushtimin tuaj 🌷",
-    "Mimoza": "E dashur mësuese Mimoza, ju jeni drita që ndriçon rrugën tonë 🌺"
+    "Arta": "E dashur mësuese Arta, ju jeni frymëzim për çdo nxënës \n🌸",
+    "Blerim": "I dashur mësues Blerim, puna juaj na frymëzon çdo ditë \n🌹",
+    "Elira": "E dashur mësuese Elira, çdo ditë bëni ndryshim në klasë \n🌼",
+    "Gentian": "I dashur mësues Gentian, faleminderit për përkushtimin tuaj \n🌷",
+    "Mimoza": "E dashur mësuese Mimoza, ju jeni drita që ndriçon rrugën tonë \n🌺"
 }
 
 # Mësuesi shkruan emrin e tij
@@ -39,6 +39,7 @@ if st.button("Shfaq Urimin 💌"):
             <p>Shkolla "22 Tetori"</p>
         </div>
         """, unsafe_allow_html=True)
+
 
 
 
