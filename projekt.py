@@ -19,43 +19,47 @@ if st.button("Shfaq Urimin 💌"):
             "Çdo mësim nga ju është një hap drejt suksesit tonë."
         ]
         titulli = "🌟 GËZUAR 7 MARSIN! 🌟"
+        if emri:
+            if emri.lower().endswith("a"):
+                st.success(f"E dashur mësuese {emri}, {random.choice(urime)}")
+            else:
+                st.success(f"I dashur mësues {emri}, {random.choice(urime)}")
     else:
         urime = [
             "Dashuria dhe forca juaj na frymëzon çdo ditë.",
-            "Ju jeni zemra e familjes tuaj dhe familja jone e dyte.",
+            "Ju jeni zemra e familjes tuaj dhe familja jonë e dytë.",
             "Mirënjohje për gjithçka që bëni me kaq përkushtim."
         ]
         titulli = "💖 GËZUAR 8 MARSIN! 💖"
+        if emri:
+            st.success(f"E dashur {emri}, {random.choice(urime)}")
 
     st.markdown(f"## {titulli}")
-if emri:
-  if emri.lower().endswith("a"):
-    st.success(f"E dashur mësuese {emri}, {random.choice(urime)}")
-  else:
-    st.success(f"I dashur mësues {emri}, {random.choice(urime)}")
 
+# Animacion lulesh me efekte më të lëvizshme
 st.markdown("""
 <style>
-@keyframes levizLule {
-    0% {transform: translateY(100vh);}
-    100% {transform: translateY(-50px);}
+@keyframes bieLule {
+    0% {transform: translateY(-50px) rotate(0deg);}
+    50% {transform: translateY(50vh) rotate(180deg);}
+    100% {transform: translateY(100vh) rotate(360deg);}
 }
 .lule {
     font-size: 40px;
-    animation: levizLule 5s linear infinite;
+    animation: bieLule 5s linear infinite;
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 5px;
 }
 </style>
 
 <div style="text-align:center;">
-<span class="lule">🌸</span>
-<span class="lule">🌷</span>
-<span class="lule">🌹</span>
-<span class="lule">🌺</span>
-<span class="lule">🌼</span>
-<span class="lule">🌸</span>
-<span class="lule">🌷</span>
+<span class="lule" style="animation-delay:0s;">🌸</span>
+<span class="lule" style="animation-delay:0.5s;">🌷</span>
+<span class="lule" style="animation-delay:1s;">🌹</span>
+<span class="lule" style="animation-delay:1.5s;">🌺</span>
+<span class="lule" style="animation-delay:2s;">🌼</span>
+<span class="lule" style="animation-delay:2.5s;">💐</span>
+<span class="lule" style="animation-delay:3s;">🌸</span>
 </div>
 """, unsafe_allow_html=True)
 
