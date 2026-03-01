@@ -17,7 +17,14 @@ if st.button("Shfaq Urimin 💌"):
         urime = [
             "Ju jeni drita që ndriçon rrugën tonë drejt dijes.",
             "Faleminderit për përkushtimin dhe zemrën tuaj të madhe.",
-            "Çdo mësim nga ju është një hap drejt suksesit tonë."
+            "Çdo mësim nga ju është një hap drejt suksesit tonë.",
+            "Ju jeni drita që ndriçon rrugën tonë drejt dijes.",
+            "Faleminderit për përkushtimin dhe zemrën tuaj të madhe.",
+            "Çdo mësim nga ju është një hap drejt suksesit tonë.",
+            "Mësues si ju bëjnë botën më të bukur.",
+            "Mirënjohje për çdo ditë që ndani dije dhe buzëqeshje.",
+            "Ju frymëzoni çdo nxënës të rritet me besim dhe kurajo.",
+            "Një falënderim i madh për gjithë punën tuaj."
         ]
         titulli = "🌟GËZUAR 7 MARSIN!🌟"
         if emri:
@@ -28,8 +35,9 @@ if st.button("Shfaq Urimin 💌"):
     else:
         urime = [
             "Dashuria dhe forca juaj na frymëzon çdo ditë.",
-            "Ju jeni zemra e familjes tuaj dhe familja jonë e dytë.",
-            "Mirënjohje për gjithçka që bëni me kaq përkushtim."
+            "Ju jeni zemra e klasës dhe familja jonë e dytë.",
+            "Mirënjohje për gjithçka që bëni me kaq përkushtim.",
+            "Një mësuese si ju e bën botën më të bukur dhe nxënësit më të lumtur."
         ]
         titulli = "💖GËZUAR 8 MARSIN!💖"
         if emri:
@@ -37,6 +45,7 @@ if st.button("Shfaq Urimin 💌"):
 
     st.balloons()
  
+
 
 
 
