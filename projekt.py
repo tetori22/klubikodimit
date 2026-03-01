@@ -34,13 +34,30 @@ else:
     st.success(f"I dashur mësues {emri}, {random.choice(urime)}")
 
 st.markdown("""
-<div style="text-align: center; font-size: 40px;">
-🌸 🌷 🌹 🌺 🌼 🌸 🌷 🌹 🌺 🌼
+<style>
+@keyframes levizLule {
+    0% {transform: translateY(100vh);}
+    100% {transform: translateY(-50px);}
+}
+.lule {
+    font-size: 40px;
+    animation: levizLule 5s linear infinite;
+    display: inline-block;
+    margin: 0 10px;
+}
+</style>
+
+<div style="text-align:center;">
+<span class="lule">🌸</span>
+<span class="lule">🌷</span>
+<span class="lule">🌹</span>
+<span class="lule">🌺</span>
+<span class="lule">🌼</span>
+<span class="lule">🌸</span>
+<span class="lule">🌷</span>
 </div>
 """, unsafe_allow_html=True)
 
-for i in range(3):
-    st.markdown("🌸 🌷 🌹 🌺 🌼")
 
 
 
