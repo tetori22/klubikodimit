@@ -27,7 +27,7 @@ if st.button("Shfaq Urimin 💌"):
         <div style="
             text-align:center;
             background: linear-gradient(135deg, #ffe6f2, #fff0f5);
-            padding:30px;
+            padding:20px;
             border-radius:20px;
             border:3px solid #ff4da6;
             font-size:20px;
@@ -39,6 +39,7 @@ if st.button("Shfaq Urimin 💌"):
             <p>Shkolla "22 Tetori"</p>
         </div>
         """, unsafe_allow_html=True)
+
 
 
 
