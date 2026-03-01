@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(page_title="Kartolinë për Mësuesit 🌸")
-st.title("🌷 Kartolinë për 7–8 Marsin 🌷")
+st.title("🌷Një kartolinë për ty🌷")
 
 # Fjalori me urime për secilin mësues
 urime_mesuesve = {
@@ -39,6 +39,7 @@ if st.button("Shfaq Urimin 💌"):
             <p>Shkolla "22 Tetori"</p>
         </div>
         """, unsafe_allow_html=True)
+
 
 
 
