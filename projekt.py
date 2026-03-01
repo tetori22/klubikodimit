@@ -37,30 +37,31 @@ if st.button("Shfaq Urimin 💌"):
     st.markdown(f"## {titulli}")
 
 # Animacion lulesh me efekte më të lëvizshme
-st.markdown("""
-<style>
-@keyframes ngrihu {
-    0% {transform: translateY(100vh);}
-    100% {transform: translateY(-50px);}
-}
-.lule {
-    font-size: 40px;
-    animation: ngrihu 5s linear infinite;
-    display: inline-block;
-    margin: 0 10px;
-}
-</style>
+  st.markdown("""
+  <style>
+  @keyframes ngrihu {
+      0% {transform: translateY(100vh);}
+      100% {transform: translateY(-50px);}
+  }
+  .lule {
+      font-size: 40px;
+      animation: ngrihu 5s linear infinite;
+      display: inline-block;
+      margin: 0 10px;
+  }
+  </style>
+  
+  <div style="text-align:center;">
+  <span class="lule">🌸</span>
+  <span class="lule">🌷</span>
+  <span class="lule">🌹</span>
+  <span class="lule">🌺</span>
+  <span class="lule">🌼</span>
+  <span class="lule">💐</span>
+  <span class="lule">🌸</span>
+  </div>
+  """, unsafe_allow_html=True)
 
-<div style="text-align:center;">
-<span class="lule">🌸</span>
-<span class="lule">🌷</span>
-<span class="lule">🌹</span>
-<span class="lule">🌺</span>
-<span class="lule">🌼</span>
-<span class="lule">💐</span>
-<span class="lule">🌸</span>
-</div>
-""", unsafe_allow_html=True)
 
 
 
