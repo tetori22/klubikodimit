@@ -5,7 +5,7 @@ st.set_page_config(page_title="Gëzuar 7-8 Marsin 🌸")
 
 st.title("🌷Kartolinë për 7–8 Marsin🌷")
 
-opsion = st.radio("Zgjidhni festën:", ["7 Mars - Dita e Mësuesit", 
+opsion = st.radio("Cilën festë festoni? :", ["7 Mars - Dita e Mësuesit", 
                                        "8 Mars - Dita e Nënës"])
 
 emri = st.text_input("Shkruani emrin:")
@@ -45,6 +45,7 @@ if st.button("Shfaq Urimin 💌"):
 
     st.balloons()
  
+
 
 
 
