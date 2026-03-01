@@ -22,9 +22,9 @@ if st.button("Shfaq Urimin 💌"):
         titulli = "🌟GËZUAR 7 MARSIN!🌟"
         if emri:
             if emri.lower().endswith("a"):
-                st.success(f"E dashur mësuese {emri}, {random.choice(urime)}")
+                st.success(f"{titulli}\n\nE dashur mësuese {emri}, {random.choice(urime)}")
             else:
-                st.success(f"I dashur mësues {emri}, {random.choice(urime)}")
+                st.success(f"{titulli}\n\nI dashur mësues {emri}, {random.choice(urime)}")
     else:
         urime = [
             "Dashuria dhe forca juaj na frymëzon çdo ditë.",
@@ -33,11 +33,11 @@ if st.button("Shfaq Urimin 💌"):
         ]
         titulli = "💖GËZUAR 8 MARSIN!💖"
         if emri:
-            st.success(f"E dashur mesuese {emri}, {random.choice(urime)},f"💖GËZUAR 8 MARSIN!💖)
+            st.success(f"{titulli}\n\nE dashur mesuese {emri}, {random.choice(urime)})
 
-    st.markdown(f"## {titulli}")
     st.balloons()
  
+
 
 
 
