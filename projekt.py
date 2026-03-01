@@ -29,9 +29,9 @@ if st.button("Shfaq Urimin 💌"):
         titulli = "🌟GËZUAR 7 MARSIN!🌟"
         if emri:
             if emri.lower().endswith("a"):
-                st.success(f"{titulli}\n\nE dashur mësuese {emri}, {random.choice(urime)},\n \n Me dashuri nga Klubi i Kodimit\n \n Shkolla 22 Tetori")
+                st.success(f"{titulli}\n\nE dashur mësuese {emri}, {random.choice(urime)},\n\n \n \n Me dashuri nga Klubi i Kodimit\n \n Shkolla 22 Tetori")
             else:
-                st.success(f"{titulli}\n\nI dashur mësues {emri}, {random.choice(urime)},\n \n Me dashuri nga Klubi i Kodimit\n \n Shkolla 22 Tetori")
+                st.success(f"{titulli}\n\nI dashur mësues {emri}, {random.choice(urime)},\n \n \n\n Me dashuri nga Klubi i Kodimit\n \n Shkolla 22 Tetori")
     else:
         urime = [
             "Dashuria dhe forca juaj na frymëzon çdo ditë.",
@@ -39,12 +39,13 @@ if st.button("Shfaq Urimin 💌"):
             "Mirënjohje për gjithçka që bëni me kaq përkushtim.",
             "Një mësuese si ju e bën botën më të bukur dhe nxënësit më të lumtur."
         ]
-        titulli = "💖GËZUAR 8 MARSIN!💖"
+        titulli = "💖GËZUAR 8 MARSIN!💖\n\n"
         if emri:
-            st.success(f"{titulli}\n\nE dashur mesuese {emri}, {random.choice(urime)},\n \n Me dashuri nga Klubi i Kodimit\n \n Shkolla 22 Tetori")
+            st.success(f"{titulli}\n\nE dashur mesuese {emri}, {random.choice(urime)},\n \n \n \n Me dashuri nga Klubi i Kodimit\n \n Shkolla 22 Tetori")
 
     st.balloons()
  
+
 
 
 
