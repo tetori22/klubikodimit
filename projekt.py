@@ -33,11 +33,12 @@ if st.button("Shfaq Urimin 💌"):
         ]
         titulli = "💖GËZUAR 8 MARSIN!💖"
         if emri:
-            st.success(f"E dashur mesuese {emri}, {random.choice(urime)}")
+            st.success(f"E dashur mesuese {emri}, {random.choice(urime)},f"💖GËZUAR 8 MARSIN!💖)
 
     st.markdown(f"## {titulli}")
     st.balloons()
  
+
 
 
 
