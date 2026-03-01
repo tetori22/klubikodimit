@@ -28,14 +28,12 @@ if st.button("Shfaq Urimin 💌"):
         titulli = "💖 GËZUAR 8 MARSIN! 💖"
 
     st.markdown(f"## {titulli}")
- if str.endswith("a","A"):
-      st.success(f" E dashur mesuese {emri}, {random.choice(urime)}")
- else:
-      st.success(f" I dashur mesues {emri}, {random.choice(urime)}")
+if emri.lower().endswith("a"):
+    st.success(f"E dashur mësuese {emri}, {random.choice(urime)}")
+else:
+    st.success(f"I dashur mësues {emri}, {random.choice(urime)}")
 
-
-    #st.balloons()
-  st.markdown("""
+st.markdown("""
 <div style="text-align: center; font-size: 40px;">
 🌸 🌷 🌹 🌺 🌼 🌸 🌷 🌹 🌺 🌼
 </div>
@@ -43,6 +41,7 @@ if st.button("Shfaq Urimin 💌"):
 
 for i in range(3):
     st.markdown("🌸 🌷 🌹 🌺 🌼")
+
 
 
 
