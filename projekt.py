@@ -29,7 +29,7 @@ if st.button("Shfaq Urimin 💌"):
 
     st.markdown(f"## {titulli}")
  if str.endswith("a","A"):
-   st.success(f" E dashur mesuese {emri}, {random.choice(urime)}")
+      st.success(f" E dashur mesuese {emri}, {random.choice(urime)}")
  else:
       st.success(f" I dashur mesues {emri}, {random.choice(urime)}")
 
@@ -43,5 +43,6 @@ if st.button("Shfaq Urimin 💌"):
 
 for i in range(3):
     st.markdown("🌸 🌷 🌹 🌺 🌼")
+
 
 
