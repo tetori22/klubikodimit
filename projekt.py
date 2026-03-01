@@ -28,9 +28,10 @@ if st.button("Shfaq Urimin 💌"):
         titulli = "💖 GËZUAR 8 MARSIN! 💖"
 
     st.markdown(f"## {titulli}")
-if emri.lower().endswith("a"):
+if emri:
+  if emri.lower().endswith("a"):
     st.success(f"E dashur mësuese {emri}, {random.choice(urime)}")
-else:
+  else:
     st.success(f"I dashur mësues {emri}, {random.choice(urime)}")
 
 st.markdown("""
@@ -57,6 +58,7 @@ st.markdown("""
 <span class="lule">🌷</span>
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
