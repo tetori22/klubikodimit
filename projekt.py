@@ -33,12 +33,13 @@ if st.button("Shfaq Urimin 💌"):
             font-size:20px;
             box-shadow:0 6px 15px rgba(0,0,0,0.15);
         ">
-            <h3>🌟 GËZUAR FESTËN! 🌟</h3><br><br>
-            <p>{urimi_personal}</p><br><br>
+            <h4>🌟 GËZUAR FESTËN! 🌟</h4><br><br>
+            <p><b>{urimi_personal}</b></p><br><br>
             <p>Me dashuri nga Klubi i Kodimit</p>
             <p>Shkolla "22 Tetori"</p>
         </div>
         """, unsafe_allow_html=True)
+
 
 
 
