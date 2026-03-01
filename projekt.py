@@ -36,8 +36,9 @@ if st.button("Shfaq Urimin 💌"):
             st.success(f"E dashur {emri}, {random.choice(urime)}")
 
     st.markdown(f"## {titulli}")
-    
+    st.balloons()
     # Animacion lulesh që shfaqen vetëm pas klikimit
+  
     st.markdown("""
     <style>
     @keyframes ngrihu {
@@ -62,6 +63,8 @@ if st.button("Shfaq Urimin 💌"):
     <span class="lule">🌸</span>
     </div>
     """, unsafe_allow_html=True)
+
+
 
 
 
