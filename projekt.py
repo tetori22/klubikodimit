@@ -1,11 +1,6 @@
 import streamlit as st
 import random
-st.markdown(f"""
 
-    text-align:center;
-    background: linear-gradient(135deg, #ffe6f2, #fff0f5);
-  
-""", unsafe_allow_html=True)
 st.set_page_config(page_title="Gëzuar 7-8 Marsin 🌸")
 
 st.title("🌷Kartolinë për 7–8 Marsin🌷")
@@ -50,6 +45,7 @@ if st.button("Shfaq Urimin 💌"):
 
     st.balloons()
  
+
 
 
 
