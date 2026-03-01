@@ -29,4 +29,13 @@ if st.button("Shfaq Urimin 💌"):
 
     st.markdown(f"## {titulli}")
     st.success(f"{emri}, {random.choice(urime)}")
-    st.balloons()
+
+    #st.balloons()
+  st.markdown("""
+<div style="text-align: center; font-size: 40px;">
+🌸 🌷 🌹 🌺 🌼 🌸 🌷 🌹 🌺 🌼
+</div>
+""", unsafe_allow_html=True)
+
+for i in range(3):
+    st.markdown("🌸 🌷 🌹 🌺 🌼")
