@@ -26,7 +26,7 @@ if st.button("Shfaq Urimin 💌"):
             "Ju frymëzoni çdo nxënës të rritet me besim dhe kurajo.",
             "Një falënderim i madh për gjithë punën tuaj."
         ]
-        titulli = "🌟GËZUAR 7 MARSIN!🌟"
+        titulli = "🌟KLUBI I KODIMIT JU URON \n\n GËZUAR 7 MARSIN!🌟"
         if emri:
             if emri.lower().endswith("a"):
                 st.success(f"{titulli}\n\nE dashur mësuese {emri}, {random.choice(urime)}")
@@ -45,6 +45,7 @@ if st.button("Shfaq Urimin 💌"):
 
     st.balloons()
  
+
 
 
 
