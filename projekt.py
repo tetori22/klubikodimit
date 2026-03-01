@@ -12,6 +12,7 @@ emri = st.text_input("Shkruani emrin:")
 
 if st.button("Shfaq Urimin 💌"):
     
+    # Përzgjedhja e urimeve sipas festës
     if opsion.startswith("7"):
         urime = [
             "Ju jeni drita që ndriçon rrugën tonë drejt dijes.",
@@ -35,34 +36,32 @@ if st.button("Shfaq Urimin 💌"):
             st.success(f"E dashur {emri}, {random.choice(urime)}")
 
     st.markdown(f"## {titulli}")
+    
+    # Animacion lulesh që shfaqen vetëm pas klikimit
+    st.markdown("""
+    <style>
+    @keyframes ngrihu {
+        0% {transform: translateY(100vh);}
+        100% {transform: translateY(-50px);}
+    }
+    .lule {
+        font-size: 40px;
+        animation: ngrihu 5s linear infinite;
+        display: inline-block;
+        margin: 0 10px;
+    }
+    </style>
 
-# Animacion lulesh me efekte më të lëvizshme
-  st.markdown("""
-  <style>
-  @keyframes ngrihu {
-      0% {transform: translateY(100vh);}
-      100% {transform: translateY(-50px);}
-  }
-  .lule {
-      font-size: 40px;
-      animation: ngrihu 5s linear infinite;
-      display: inline-block;
-      margin: 0 10px;
-  }
-  </style>
-  
-  <div style="text-align:center;">
-  <span class="lule">🌸</span>
-  <span class="lule">🌷</span>
-  <span class="lule">🌹</span>
-  <span class="lule">🌺</span>
-  <span class="lule">🌼</span>
-  <span class="lule">💐</span>
-  <span class="lule">🌸</span>
-  </div>
-  """, unsafe_allow_html=True)
-
-
+    <div style="text-align:center;">
+    <span class="lule">🌸</span>
+    <span class="lule">🌷</span>
+    <span class="lule">🌹</span>
+    <span class="lule">🌺</span>
+    <span class="lule">🌼</span>
+    <span class="lule">💐</span>
+    <span class="lule">🌸</span>
+    </div>
+    """, unsafe_allow_html=True)
 
 
 
