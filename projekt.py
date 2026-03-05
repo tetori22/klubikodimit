@@ -14,10 +14,10 @@ urime_mesuesve = {
     "Yllka": "E dashur mësuese Yllka! Urime për Ditën e Mësuesit! Me ju zbulojmë mrekullitë e trupit dhe të botës së gjallë. 💐",
     "Andon": "Mësues Andoni! Gëzuar 7 Marsin! Ju falënderojmë për frymëzimin dhe kreativitetin që na jepni. 🪻",
     "Loreta": "E dashur mësuese Loreta! Gëzuar 7 Marsin! Faleminderit që na tregoni bukuritë dhe misteret e botës. 🌺",
-    "Anila": "E dashur mësuese Anila! Urime për Ditën e Mësuesit! Me ju udhëtojmë në çdo kontinent përmes dijes. 🌹",
+    "Anila": "E dashur mësuese Anila! Gëzuar Ditën e Mësuesit! Me ju, përmes dijes, udhëtojmë në çdo kontinent, kuptojmë më mirë ngjarjet, njerëzit dhe historinë e botës sonë. Falë kontributit dhe përkushtimit tuaj do të kemi çdo ditë cilësi më të mirë në mësimdhenie.  🌹",
     "Rexhina": "E dashur mësuese Rexhina! Gëzuar 7 Marsin! Faleminderit që na ndihmoni të kuptojmë ligjet e natyrës dhe të universit. 🌷",
     "Zeni": "E dashur mësuese Zeniu! Gëzuar 7 Marsin! Faleminderit që na motivoni të jemi aktivë dhe të shëndetshëm. 🌸",
-    "Avenir": "E dashur mësuese Aveniri! Urime për Ditën e Mësuesit! Me ju sporti bëhet argëtim dhe energji. 🌻",
+    "Avenir": "E dashur mësuese Aveniri! Gëzuar Ditën e Mësuesit! Me ju sporti bëhet argëtim dhe energji. 🌻",
     "Andi": "Mësues Andi! Urime për Ditën e Mësuesit! Me ju çdo notë bëhet më e bukur. 🌼",
     "Irvena": "E dashur mësuese Irvena! Gëzuar 7 Marsin! Faleminderit që na mësoni një gjuhë kaq të bukur si italishtja. 💐",
     "Aibana": "E dashur mësuese Ajbana! Urime për Ditën e Mësuesit! Me ju çdo fjalë e re bëhet më e lehtë për t’u mësuar. 🪻",
@@ -28,7 +28,7 @@ urime_mesuesve = {
     "Arta":"E nderuar Oficere, ju falenderojmë për sigurinë dhe mbështetjen që na jep.💐",
     "Parashqevi":"E dashur mësuese Parashqevi! Urime për Ditën e Mësuesit! Mirënjohje për gjithçka që bëni me kaq përkushtim.💐",
     "Margarita":"E dashur mësuese Margarita! Urime për Ditën e Mësuesit! Me ju mësojmë fuqinë e fjalës!🌼",
-    "Albana Hoxha":"E nderuar drejtore Albana! Gëzuar 7 Marsin! Ju falënderojmë për përkushtimin, drejtimin dhe mbështetjen tuaj të vazhdueshme. Falë jush, shkolla jonë është një vend ku dijet, respekti dhe bashkëpunimi rriten çdo ditë.💐",
+    "Albana Hoxha":"E nderuar drejtore Albana! Gëzuar 7 Marsin! Ju falenderojmë për përkushtimin, drejtimin dhe mbështetjen tuaj të vazhdueshme. Falë jush, shkolla jonë është një vend ku dijet, respekti dhe bashkëpunimi rriten çdo ditë.💐",
     "Albana Agalliu":"Ju falënderojmë për kujdesin, mirëkuptimin dhe mbështetjen që na jepni çdo ditë. Falë jush ndihemi më të dëgjuar, më të kuptuar dhe më të fortë për të përballuar sfidat.🌸",
     "Arlinda":"Ju falënderojmë për përkujdesjen, mirëkuptimin dhe mbështetjen që na jepni çdo ditë. Me përkushtimin tuaj na ndihmoni të ndihemi më të sigurt dhe të vlerësuar në shkollë. 🌹",
     "Olta":"Mësuese Olta! Faleminderit që na mësoni një nga gjuhët më të rëndësishme në botë dhe na ndihmoni të hapim dritare të reja drejt dijes dhe komunikimit. 🌹",
@@ -66,6 +66,7 @@ if st.button("Shfaq Urimin 💌"):
             
         </div>
         """, unsafe_allow_html=True)
+
 
 
 
