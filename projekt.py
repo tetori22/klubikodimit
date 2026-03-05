@@ -32,7 +32,7 @@ urime_mesuesve = {
     "Albana Agalliu":"Ju falënderojmë për kujdesin, mirëkuptimin dhe mbështetjen që na jepni çdo ditë. Falë jush ndihemi më të dëgjuar, më të kuptuar dhe më të fortë për të përballuar sfidat.🌸",
     "Arlinda":"Ju falënderojmë për përkujdesjen, mirëkuptimin dhe mbështetjen që na jepni çdo ditë. Me përkushtimin tuaj na ndihmoni të ndihemi më të sigurt dhe të vlerësuar në shkollë. 🌹",
     "Olta":"Mësuese Olta! Faleminderit që na mësoni një nga gjuhët më të rëndësishme në botë dhe na ndihmoni të hapim dritare të reja drejt dijes dhe komunikimit. 🌹",
-    "Naunkela":""Mësuese Naunkela! Me ju mësojmë një nga gjuhët më të rëndësishme në botë. Mirënjohje për gjithçka që bëni me kaq përkushtim.🌹",
+    "Naunkela":"Mësuese Naunkela! Me ju mësojmë një nga gjuhët më të rëndësishme në botë. Mirënjohje për gjithçka që bëni me kaq përkushtim.🌹",
     "Esmeralda":"Mësuese Esmeralda! Një mësuese si ju e bën botën më të bukur dhe nxënësit më të lumtur!🌹",
     
 }
@@ -64,6 +64,7 @@ if st.button("Shfaq Urimin 💌"):
             <p>Shkolla "22 Tetori"</p>
         </div>
         """, unsafe_allow_html=True)
+
 
 
 
