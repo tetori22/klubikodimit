@@ -62,10 +62,12 @@ if st.button("Shfaq Urimin 💌"):
             <p><b>{urimi_personal}</b></p><br><br>
             <p>Me dashuri nga Klubi i Kodimit</p>
             <p>Shkolla "22 Tetori"</p>
+            st.balloons()
         </div>
         """, unsafe_allow_html=True)
 
-st.balloons()
+
+
 
 
 
