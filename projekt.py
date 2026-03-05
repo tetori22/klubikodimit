@@ -48,6 +48,7 @@ if st.button("Shfaq Urimin 💌"):
         st.error("Ky mësues nuk punon në shkollën 22 Tetori.")
     else:
         urimi_personal = urime_mesuesve[emri]
+        st.balloons()
         st.markdown(f"""
         <div style="
             text-align:center;
@@ -62,9 +63,10 @@ if st.button("Shfaq Urimin 💌"):
             <p><b>{urimi_personal}</b></p><br><br>
             <p>Me dashuri nga Klubi i Kodimit</p>
             <p>Shkolla "22 Tetori"</p>
-            st.balloons()
+            
         </div>
         """, unsafe_allow_html=True)
+
 
 
 
