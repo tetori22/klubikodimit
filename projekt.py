@@ -65,6 +65,7 @@ if st.button("Shfaq Urimin 💌"):
         </div>
         """, unsafe_allow_html=True)
 
+st.balloons()
 
 
 
