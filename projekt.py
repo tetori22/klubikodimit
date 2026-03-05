@@ -28,7 +28,7 @@ urime_mesuesve = {
     "Arta":"E nderuar Oficere, ju falenderojmë për sigurinë dhe mbështetjen që na jep.💐",
     "Parashqevi":"E dashur mësuese Parashqevi! Urime për Ditën e Mësuesit! Mirënjohje për gjithçka që bëni me kaq përkushtim.💐",
     "Margarita":"E dashur mësuese Margarita! Urime për Ditën e Mësuesit! Me ju mësojmë fuqinë e fjalës!🌼",
-    "Albana Bega":"E nderuar drejtore Albana! Gëzuar 7 Marsin! Ju falënderojmë për përkushtimin, drejtimin dhe mbështetjen tuaj të vazhdueshme. Falë jush, shkolla jonë është një vend ku dijet, respekti dhe bashkëpunimi rriten çdo ditë.💐",
+    "Albana Hoxha":"E nderuar drejtore Albana! Gëzuar 7 Marsin! Ju falënderojmë për përkushtimin, drejtimin dhe mbështetjen tuaj të vazhdueshme. Falë jush, shkolla jonë është një vend ku dijet, respekti dhe bashkëpunimi rriten çdo ditë.💐",
     "Albana Agalliu":"Ju falënderojmë për kujdesin, mirëkuptimin dhe mbështetjen që na jepni çdo ditë. Falë jush ndihemi më të dëgjuar, më të kuptuar dhe më të fortë për të përballuar sfidat.🌸",
     "Arlinda":"Ju falënderojmë për përkujdesjen, mirëkuptimin dhe mbështetjen që na jepni çdo ditë. Me përkushtimin tuaj na ndihmoni të ndihemi më të sigurt dhe të vlerësuar në shkollë. 🌹",
     "Olta":"Mësuese Olta! Faleminderit që na mësoni një nga gjuhët më të rëndësishme në botë dhe na ndihmoni të hapim dritare të reja drejt dijes dhe komunikimit. 🌹",
@@ -66,6 +66,7 @@ if st.button("Shfaq Urimin 💌"):
             
         </div>
         """, unsafe_allow_html=True)
+
 
 
 
